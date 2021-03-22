@@ -50,13 +50,7 @@ class Welcome extends CI_Controller {
 			'ammount' => $ammount,
 			'email' =>$email,
 		);
-		if($this->input->post("update"))  
-		{  
-			 $this->main_model->update_data($data, $this->input->post("hidden_id"));  
-			 redirect(base_url() . "welcome/index");  
-		}
-		
-
+		$this->database->user_registration($data);
 		if(isset($_POST['email'])){
 			
 			echo "<script>alert('Payment Successfully Initiated!')</script>";
