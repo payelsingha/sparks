@@ -1,10 +1,8 @@
 <?php
 /**
  * CodeIgniter
- *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
+ * * An open source application development framework for PHP
+ * * This content is released under the MIT License (MIT)
  *
  * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
  *
